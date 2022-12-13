@@ -1,2 +1,3 @@
-# CS106L
- Resources and my works for CS106L Fall 2022 at Stanford
+# CS106L Standard C++ Programming
+
+- Course website: https://web.stanford.edu/class/cs106l/
