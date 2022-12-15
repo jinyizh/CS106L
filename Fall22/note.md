@@ -1,6 +1,6 @@
 # CS106L Fall 2022 Study Notes by Jinyi Zhou
 
-## Lecture 1
+## Lecture 2
 
 C++ is a **statically typed** (everything with a name is given a type before runtime) language.
 
@@ -44,5 +44,11 @@ std::pair<bool, Student> lookupStudent(std::string name) {
 
 ```auto```: keyword used in lieu of type when declaring a variable, tells the compiler to deduce the type.
 
+## Lecture 3 Stream
+
 **Stream**: an abstraction for input/output. Streams
 convert between data and the string representation of data.
+
+```std::cout``` is an output stream. It has type ```std::ostream```. Output steam can only send data using the << operator. They convert any type into string and send it to the stream.
+
+```std::cout``` is a global constant object that you get from ```#include <iostream>```. To use any other output stream, you must first initialize it.
